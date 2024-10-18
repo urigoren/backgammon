@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .cell {
+                font-size: 24px;
+                font-weight: bold;
+                color: blueviolet;
+                border-color: black;
+                border-width: 1px;
+                border-style: solid;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+                background-color: lightgray;
+            }
+        </style>
+        <script language="javascript" src="tic_tac_toe.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="h1">Tic Tac Toe</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell col-4" id="11" onclick="check(11)"></div>
+                <div class="cell col-4" id="12" onclick="check(12)"></div>
+                <div class="cell col-4" id="13" onclick="check(13)"></div>
+            </div>
+            <div class="row">
+                <div class="cell col-4" id="21" onclick="check(21)"></div>
+                <div class="cell col-4" id="22" onclick="check(22)"></div>
+                <div class="cell col-4" id="23" onclick="check(23)"></div>
+            </div>
+            <div class="row">
+                <div class="cell col-4" id="31" onclick="check(31)"></div>
+                <div class="cell col-4" id="32" onclick="check(32)"></div>
+                <div class="cell col-4" id="33" onclick="check(33)"></div>
+            </div>
+        </div>
+    </body>
+</html>
